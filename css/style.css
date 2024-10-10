@@ -79,7 +79,7 @@ h1 span{
     
   
 }
-img{
+#img-profile{
     height:400px;
     width:400px;
     border-radius: 50%;
@@ -137,8 +137,7 @@ img{
     width: 100%;
     padding: 20px;
     display: flex;
-    background-color: blue;
-
+    /* background-color: blue; */
     background-image:url(./Images/2204ad0946a543328f5788a881d8034b_323309319_3357274307873534_2844728125635782235_n.webp); 
      background-size: cover;
      background-position: center;
@@ -174,6 +173,9 @@ img{
     z-index: 100;
     color: white;
     display: flex; 
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: center;
     gap: 10px;
     height: 600px;
     width: 60%;
@@ -189,8 +191,17 @@ img{
     align-items: center;
     justify-content: center;
 }
+.box-child1,.box-child2{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+  
+}
 .childblur{
-    height: 10pc;
-    width: 13pc;
-    /* background-color: black; */
+    height: 15pc;
+    width: 10pc;
+    border-radius: 5pc;
+    background-color: white;
+
 }
