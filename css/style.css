@@ -6,16 +6,18 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+
 }
 body{
     background-color: black;
+    color: white;
     display: flex;
     flex-direction: column;
 
 }
 .container-nav{
     height: 8vh;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,6 +28,7 @@ body{
     text-indent: 30px;
     font-family: "Open Sans", sans-serif;
     font-size: 30px;
+    color: white;
     
 }
 h1 span{
@@ -35,12 +38,17 @@ h1 span{
     display: flex;
     width: 45%;
     justify-content: space-around;
+    background-color: white;
+    border-radius: 5pc;
+    top: 0%;
 }
 .content-menus a{
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
     color: black;
+   
+   
 }
 .nav-button{
     width: 10%;
@@ -62,12 +70,12 @@ h1 span{
     background-color: black;
     color: white;
 }
-.content-about{
+.content-intro{
     display: flex;
     color: white;
     gap: 10px;
     justify-content: space-around;
-    height: 685px;
+    height: 710px;
     align-items: center;
 }
 .content-image{
@@ -80,8 +88,8 @@ h1 span{
   
 }
 #img-profile{
-    height:400px;
-    width:400px;
+    height:300px;
+    width:300px;
     border-radius: 50%;
 }
 .content-abourname{
@@ -133,7 +141,8 @@ h1 span{
 
 }
 .content-skills{
-    height: 632px;
+    z-index: -1;
+    height: 740px;
     width: 100%;
     padding: 20px;
     display: flex;
@@ -191,6 +200,7 @@ h1 span{
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .box-child1,.box-child2{
     width: 100%;
@@ -206,11 +216,46 @@ h1 span{
     background-color: white; 
     display: flex;
     flex-direction: column;
+    gap:10px;
     align-items: center;
     justify-content: center;
+    color: black;
 
 }
 #image-icon{
     height: 50px;
     width: 50px;
+}
+.content-about{
+    height: 710px;
+
+
+}
+.content-self{
+    display: flex;
+    height: 610px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.content{
+    /* background-color: aqua; */
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+}
+i{
+    color: black;
+    font-size: 10px;
+    margin: 1px;
+
+}
+#smal-text{
+    color: orangered;
+}
+article, footer{
+    height: 630px;
 }
