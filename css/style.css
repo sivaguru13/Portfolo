@@ -39,8 +39,12 @@ h1 span{
     width: 45%;
     justify-content: space-around;
     background-color: white;
-    border-radius: 5pc;
+    border-radius: 15pc;
+    /* border-top-left-radius: 0px;
+    border-top-right-radius: 0px; */
     top: 0%;
+    margin-top: -14px;
+    padding: 14px;
 }
 .content-menus a{
     text-decoration: none;
@@ -258,4 +262,23 @@ i{
 }
 article, footer{
     height: 630px;
+}
+article, footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form #place-holder{
+    width: 400px;
+    padding: 10px;
+}
+#place-holderMessage{
+    height: 90px;
 }
