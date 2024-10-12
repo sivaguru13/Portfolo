@@ -186,8 +186,8 @@ h1 span{
     gap: 10px;
     height: 600px;
     width: 80%;
-    border: 2px solid red;
-    margin:auto;
+    /* border: 2px solid red; */
+    /* margin:auto; */
     /* filter: blur(10px); */
    
    
@@ -281,6 +281,12 @@ i{
 }
 article, footer, .container-follow,section,.content-intro,.content-about,.project-details{
     height: 630px;
+}
+.project-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 article, footer{
     display: flex;
