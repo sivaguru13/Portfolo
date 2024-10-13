@@ -8,6 +8,12 @@
     box-sizing: border-box;
 
 }
+.hole-content{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin: 10px;
+}
 body{
     background-color: black;
     color: white;
@@ -98,7 +104,7 @@ h1 span{
     width:300px;
     border-radius: 50%;
 }
-.content-abourname{
+/* .content-abourname{
     width: 50%;
     height: 60vh;
     display: flex;
@@ -106,7 +112,7 @@ h1 span{
     align-items: center;
     justify-content: center;
     gap: 10px;
-}
+} */
 #s1{
     color: white;
 }
@@ -137,6 +143,7 @@ h1 span{
 }
 .content-abourname > #qualification{
     color: rgb(226, 92, 43);
+   
     
 }
 #s1:hover{
@@ -144,7 +151,7 @@ h1 span{
 
 }
 .content-skills{
-    height: 740px;
+    height:833px;
     width: 100%;
     padding: 20px;
     display: flex;
@@ -229,7 +236,8 @@ h1 span{
     width: 10pc;
     border-radius: 3.5pc;
     /* background-color: rgb(253, 2, 2);  */
-    background: linear-gradient(87.4deg, rgb(120, 36, 5) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+    /* background: linear-gradient(87.4deg, rgb(120, 36, 5) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%); */
+    background: linear-gradient(109.6deg, rgb(114, 99, 99) 32.4%, rgb(137, 30, 47) 98.8%);
     display: flex;
     flex-direction: column;
     gap:10px;
@@ -245,7 +253,9 @@ h1 span{
 }
 .content-about{
     height: 710px;
-
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
@@ -280,7 +290,7 @@ i{
     color: orangered;
 }
 article, footer, .container-follow,section,.content-intro,.content-about,.project-details{
-    height: 630px;
+    height:833px;;
 }
 .project-details{
     display: flex;
@@ -342,6 +352,7 @@ form  #submit{
 }
 .container-follow{
     display: flex;
+    height: 400px;
 }
 .box-follow1{
     display: flex;
@@ -375,4 +386,236 @@ form  #submit{
 }
 .head-tittle{
     font-size: 50px;
+    text-align: center;
+}
+.side1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:720px) {
+    .hole-content{
+        gap:50px;
+    }
+    .container-nav {
+        height: 8vh;
+        width: 100%;
+        /* background-color: white; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .content-menus{
+        display: none;
+    }
+    .content-abourname{
+        width: 50%;
+        height: 74vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    #bt1{
+        display: none;
+    }
+    .content-intro {
+        flex-direction: column-reverse;
+        color: white;
+        gap: 20px;
+      
+        align-items: center;
+    }
+    .content-abourname {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .content-image {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #name-des {
+        text-indent: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+    .content-about {
+        display: flex;
+    }
+    .content-self {
+        display: flex;
+        flex-direction: column;
+        height: 610px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .content {
+        /* background-color: aqua; */
+        width: 100%;
+    }
+    .blur-box {
+        color: white;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: 600px;
+        width: 80%;
+        /* border: 2px solid red; */
+        /* margin: auto; */
+        /* filter: blur(10px); */
+    }
+    .box-child1, .box-child2 {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.06s ease-in-out;
+        transform: all 600ms;
+    }
+    .childblur {
+        height: 5pc;
+        width: 5pc;
+        border-radius: 3.5pc;
+        /* background-color: rgb(253, 2, 2); */
+        /* background: linear-gradient(87.4deg, rgb(120, 36, 5) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%); */
+        background: linear-gradient(109.6deg, rgb(114, 99, 99) 32.4%, rgb(137, 30, 47) 98.8%);
+        /* display: flex;
+        flex-direction: column; */
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        transition: opacity 0.6s ease;
+    }
+    #image-icon {
+        height: 20px;
+        width: 20px;
+    }
+    .project-details {
+       width: 100%;
+    }
+    .box-contact {
+        height: 400px;
+        width: 80%;
+        backdrop-filter: blur(90px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* z-index: -11; */
+    }
+    form #place-holder {
+        width: 100%;
+        padding: 10px;
+        border-radius: 30px;
+        outline: none;
+    }
+    form {
+        width: 100%;
+    }
+    article, footer {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px; */
+        width: 100%;
+    }
+    #place-holderMessage {
+        /* border-radius: 30px;
+        outline: none;
+        height: 88px;
+        width: 400px; */
+        width: 100%;
+    }
+    .container-follow {
+        /* display: flex;
+        height: 400px; */
+        width: 100%;
+        flex-direction: column;
+    }
+    #Follow {
+        font-size: 50px;
+    }
+    
+    .box-follow1 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 60%; */
+    width: 100%;
+    }
+    .box-follow2 {
+        /* height: 612px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+        width: 100%;
+    }
+    article, footer, .container-follow,section,.content-intro,.content-about,.project-details{
+        /* height:833px;; */
+        width: 100%;
+    }
+    #img-profile {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+    #i {
+        
+        font-size: 20px;
+    }
+    .container-follow {
+        display: flex;
+        height: 246px;
+    }
+    /* text changes for mobile view */
+
+    .content-abourname > #qualification {
+        font-size: 15px;
+    }
+    #area {
+    font-size: 15px;
+   
+
+}
+    #name {
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+    }    
+    #bt1, #bt2 {
+        background-color: orangered;
+        width: 80px;
+        border-radius: 5px;
+        padding: 2px;
+        border: none;
+        transition: all 800ms;
+    }
+    img{
+        display: none;
+    }
+
+    
 }
