@@ -54,6 +54,9 @@ h1 span{
     padding: 20px;
     z-index: 100;
 }
+.fon{
+    font-size: 15px;
+}
 .content-menus a{
     text-decoration: none;
     padding: 10px;
@@ -462,6 +465,14 @@ form  #submit{
         top: 0;
         z-index: 100;
     }
+    .but-anim{
+        width: 80%;
+    }
+    .btn{
+        padding: 8px;
+        font-size: 10px;
+    }
+  
     .content-menus{
         display: none; 
         position: absolute;
