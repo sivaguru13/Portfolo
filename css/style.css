@@ -220,7 +220,7 @@ h1 span{
     display: flex;
     gap: 10px;
     justify-content: space-around;
-    transition: all 0.06s ease-in-out;
+    transition: all 0.06s linear;
     transform: all 600ms;
   
 }
