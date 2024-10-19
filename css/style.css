@@ -471,11 +471,14 @@ form  #submit{
         display: none; 
         position: absolute;
         flex-direction: column;
-        border-radius: 10%;
-        width: 60%;
-        right: 10px;
-        top: 50px;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%; 
+        width: 100%;
+        height: 400%;
+        right: 0px;
+        top: 0px;
         align-items: center;
+        z-index: 1;
         /* height: 100vh; */
     }
     .content-abourname{
@@ -720,6 +723,9 @@ form  #submit{
         border-radius: 10px;
         border-top-left-radius: 30px;
         margin-right:5px ;
+        z-index: 10;
+        background-color: white;
+        
     }
 
     
