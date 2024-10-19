@@ -267,12 +267,6 @@ h1 span{
     
 
 }
-
-
-
-
-
-
 .content-self{
     display: flex;
     height: 610px;
@@ -543,14 +537,13 @@ form  #submit{
         display: flex;
     }
     .content-self {
-        display: flex;
-        flex-direction: column;
-        height: 610px;
-        justify-content: space-between;
+        height: 383px;
     }
     .content {
         /* background-color: aqua; */
-        width: 100%;
+        width: 70%;
+        padding: 10px;
+        color: white;
     }
     .blur-box {
         color: white;
@@ -723,6 +716,7 @@ form  #submit{
         padding: 10px;
         padding-left: 15px;
         border:none;
+        display: flex;
         border-radius: 10px;
         border-top-left-radius: 30px;
         margin-right:5px ;
