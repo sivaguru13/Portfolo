@@ -445,6 +445,10 @@ form  #submit{
 
 
 @media only screen and (min-width:320px) and (max-width:720px) {
+    .content-name{
+        display: none;
+    }
+
     .hole-content{
         gap:50px;
     }
@@ -716,16 +720,21 @@ form  #submit{
 
     /* JavaScript */
     .action-button{
+        position: absolute;
+        right: 2px;
+        top: 6px;
         padding: 10px;
-        padding-left: 15px;
+        /* padding-left: 15px; */
         border:none;
         display: flex;
         border-radius: 10px;
-        border-top-left-radius: 30px;
+        /* border-top-left-radius: 30px; */
         margin-right:5px ;
         z-index: 10;
-        background-color: white;
         
+    }
+    #icon1{
+        background-color: none;
     }
 
     
