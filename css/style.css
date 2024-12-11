@@ -96,7 +96,7 @@ h1 span{
     color: white;
     gap: 10px;
     justify-content: space-around;
-    height: 710px;
+    /* height: 600px; */
     align-items: center;
 }
 .content-image{
@@ -293,7 +293,7 @@ i{
     color: orangered;
 }
 article, footer, .container-follow,section,.content-intro,.content-about,.project-details{
-    height:833px;;
+    height:800px;;
 }
 .project-details{
     display: flex;
@@ -441,6 +441,11 @@ form  #submit{
 .btn:hover::before{
     transform:scaleX(1);
   
+}
+.ProjectContent{
+    width: 60%;
+    border: 2px solid orangered;
+    padding: 10px;
 }
 
 
